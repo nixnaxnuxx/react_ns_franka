@@ -1,6 +1,5 @@
-# ReAct-NS: Adaptive Reaction-Suppression Optimization for Free-Floating Redundant Manipulators
-
-Reproducibility package for the **ReAct-NS** simulation study using a free-floating Franka FR3 model in MuJoCo. The repository contains the experiment scripts, robot model assets, representative numerical results, and plots needed to inspect and reproduce the supplied experiments.
+# ReAct-NS
+**ReAct-NS** simulation study using a free-floating Franka FR3 model in MuJoCo. The repository contains the experiment scripts, robot model assets, representative numerical results, and plots needed to inspect and reproduce the supplied experiments.
 
 <p align="center">
   <img src="docs/images/fr3v2_model.png" alt="Franka FR3 MuJoCo model" width="520">
