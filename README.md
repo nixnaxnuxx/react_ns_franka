@@ -10,7 +10,7 @@ Reproducibility package for the **ReAct-NS** simulation study using a free-float
 
 ```text
 react_ns_franka/
-├── scripts/                         # Original Python experiment scripts
+├── scripts/                         # Python experiment scripts
 │   ├── 01_inspect_model.py
 │   ├── 02_test_load_model.py
 │   ├── 03_react_ns_demo.py
