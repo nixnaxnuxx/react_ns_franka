@@ -1,6 +1,8 @@
 # ReAct-NS
 **ReAct-NS** simulation study using a free-floating Franka FR3 model in MuJoCo. The repository contains the experiment scripts, robot model assets, representative numerical results, and plots needed to inspect and reproduce the supplied experiments.
 
+##Robot model assets can be downloaded from the source and get the assets folder to be under react_ns_franka > models > franka_fr3_v2_space > assets
+
 <p align="center">
   <img src="docs/images/fr3v2_model.png" alt="Franka FR3 MuJoCo model" width="520">
 </p>
