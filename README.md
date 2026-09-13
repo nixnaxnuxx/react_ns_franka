@@ -1,8 +1,6 @@
 # ReAct-NS: Adaptive Reaction-Suppression Optimization for Free-Floating Redundant Manipulators
 
-Reproducibility package for the **ReAct-NS** simulation study using a free-floating Franka FR3 model in MuJoCo. The repository contains the original experiment scripts, robot model assets, representative numerical results, and plots needed to inspect and reproduce the supplied experiments.
-
-> **Important:** the Python experiment scripts are preserved exactly as supplied. In particular, scripts `01`–`06` use paths beginning with `react_ns_franka/`. Follow the directory instructions below rather than changing the scripts.
+Reproducibility package for the **ReAct-NS** simulation study using a free-floating Franka FR3 model in MuJoCo. The repository contains the experiment scripts, robot model assets, representative numerical results, and plots needed to inspect and reproduce the supplied experiments.
 
 <p align="center">
   <img src="docs/images/fr3v2_model.png" alt="Franka FR3 MuJoCo model" width="520">
@@ -217,15 +215,7 @@ results/mu_sweep/mu_sweep_summary.csv
 
 For a visual comparison, see the PNG files in the corresponding result directories. See [`RESULTS.md`](RESULTS.md) for a concise map of the included outputs.
 
-## 6. Notes on reproducibility
-
-- The scripts in `scripts/` have **not been rewritten or path-edited** for this repository package.
-- The supplied experiment configurations and random seeds remain in the original scripts.
-- Viewer-based scripts require a graphical environment supported by MuJoCo.
-- Numerical values can vary slightly with operating system, Python, MuJoCo, NumPy, and hardware versions.
-- `results/base_inertia_sensitivity/` and `results/scientific_plots/` are included as reference outputs from the supplied supplementary materials. A dedicated generator for every file in those folders is not present in the supplied script set.
-
-## 7. Model attribution and license
+## 6. Model attribution and license
 
 The model under `models/franka_fr3_v2_space/` is the **Franka Robotics FR3 Description (MJCF)**. Its bundled README states that it is derived from the publicly available Franka FR3 description and released under the Apache License 2.0.
 
@@ -237,21 +227,9 @@ Please retain the model's original:
 
 No separate top-level software license has been added to the ReAct-NS scripts by this packaging step.
 
-## 8. Citation
+## 7. Citation
 
 If you use this repository in academic work, please cite the associated ReAct-NS paper. Full publication metadata can be added here when available.
-
-## 9. Reproducibility checklist
-
-- [ ] Repository folder is named `react_ns_franka`
-- [ ] Python environment is active
-- [ ] MuJoCo 3.1.3 or later is installed
-- [ ] `01_inspect_model.py` loads successfully
-- [ ] `02_test_load_model.py` opens the model viewer
-- [ ] `04_run_comparison.py` regenerates main comparison outputs
-- [ ] `05_random_target_benchmark.py` regenerates random benchmark outputs
-- [ ] `06_mu_sweep.py` regenerates sweep outputs
-- [ ] Fresh CSV/PNG outputs are compared with the supplied reference results
 
 ---
 
