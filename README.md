@@ -231,7 +231,3 @@ No separate top-level software license has been added to the ReAct-NS scripts by
 ## 7. Citation
 
 If you use this repository in academic work, please cite the associated ReAct-NS paper. Full publication metadata can be added here when available.
-
----
-
-This repository is organized as a **replication guide**: the original scripts are retained, reference outputs are included, and the README explains the working-directory convention required by the supplied paths.
